@@ -3,3 +3,5 @@
 //
 #import "WindowCapture.h"
 #import "WData.h"
+#import "UIElementDataProvider.h"
+#import "UIElementData.h"

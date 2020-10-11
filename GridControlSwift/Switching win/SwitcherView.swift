@@ -69,22 +69,22 @@ struct ContentView:View{
                     
                 }
             ScrollView{
-            LazyVStack{
-               //
-                ForEach(0..<images.count){i in
-                   
-                        //GeometryReader { geometry in
-                            HStack{
-                                Spacer()
-                                ItemView(im: images[i] as! WData ) .frame(height: 340)
-                                Spacer()
-                            }
-                        //}
-                    
-               }
-            
-            //}
-            }
+//            LazyVStack{
+//               //
+//                ForEach(0..<images.count){i in
+//
+//                        //GeometryReader { geometry in
+//                            HStack{
+//                                Spacer()
+//                                ItemView(im: images[i] as! WData ) .frame(height: 340)
+//                                Spacer()
+//                            }
+//                        //}
+//
+//               }
+//
+//            //}
+//            }
             }
         }
                 
